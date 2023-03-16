@@ -558,6 +558,16 @@ width: 230px;
   margin-bottom: 15px;
 }
 
+/* ____________________________________________________________________________________________________________ */
+
+
+.content--doctor-title {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
 .doctor--content {
   border: 5px double black;
   background-image: url(assets/mission--content.png);
@@ -576,7 +586,7 @@ width: 230px;
     height: 650px;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .img--simulate {
@@ -635,7 +645,7 @@ width: 230px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  height: 150px;
+  height: 190px;
 }
 
 .content--doctor-one {}
@@ -649,6 +659,7 @@ width: 230px;
 .content--row-bene {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .content--information {
